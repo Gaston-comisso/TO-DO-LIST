@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    max-width: 400px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li .botones {
+    display: flex;
+    gap: 10px; /* Espacio entre los botones */
+}
+
+li button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+li button:hover {
+    background-color: #ff1a1a;
+}
+li .editar {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+}
+
+li .editar:hover {
+    background-color: #45a049; /* Color verde más oscuro al pasar el mouse */
+}
+#botonLimpiar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4d4d; /* Rojo para el botón de limpiar */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botonLimpiar:hover {
+    background-color: #ff1a1a; /* Color más oscuro al pasar el mouse */
+}

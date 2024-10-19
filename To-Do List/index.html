@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Lista de tareas</h1>
+    <input type="text" id="nuevaTarea" placeholder="Ingrese nueva tarea">
+    <input type="time" id="horaTarea"> <!-- Selector de hora -->
+    <button onclick="agregarTarea()">Agregar tarea</button>
+
+    <ul id="listaTareas"></ul>
+    <button id="botonLimpiar">Limpiar lista</button>
+</body>
+</html>
